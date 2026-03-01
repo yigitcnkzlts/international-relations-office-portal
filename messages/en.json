@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "home": {
+      "title": "International Relations Office - Bezmialem Vakif University",
+      "description": "Bezmialem Vakif University International Relations Office - Erasmus, international student applications and bilateral agreements"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "erasmus": "Erasmus",
+    "international": "International Students",
+    "agreements": "Agreements",
+    "announcements": "Announcements",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "International Relations Office",
+    "subtitle": "International education opportunities and academic collaborations at Bezmialem Vakif University",
+    "cta1": "Application Process",
+    "cta2": "Required Documents"
+  },
+  "videos": {
+    "title": "Promotional Videos"
+  },
+  "quickAccess": {
+    "title": "Quick Access",
+    "learnMore": "Learn More",
+    "erasmus": {
+      "title": "Erasmus+",
+      "description": "Student and staff exchange programs"
+    },
+    "international": {
+      "title": "International Students",
+      "description": "Application and registration procedures"
+    },
+    "agreements": {
+      "title": "Bilateral Agreements",
+      "description": "Partner universities and collaborations"
+    },
+    "application": {
+      "title": "Application Process",
+      "description": "Step-by-step application guide"
+    },
+    "documents": {
+      "title": "Required Documents",
+      "description": "Documents needed for application"
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch with us"
+    }
+  },
+  "announcements": {
+    "title": "Announcements",
+    "viewAll": "View All"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions"
+  },
+  "footer": {
+    "contact": "Contact",
+    "quickLinks": "Quick Links",
+    "social": "Social Media",
+    "about": "About Us",
+    "international": "International Students",
+    "agreements": "Agreements",
+    "announcements": "Announcements",
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Uluslararası İlişkiler Ofisi - Bezmialem Vakıf Üniversitesi",
+      "description": "Bezmialem Vakıf Üniversitesi Uluslararası İlişkiler Ofisi - Erasmus, uluslararası öğrenci başvuruları ve ikili anlaşmalar"
+    }
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "erasmus": "Erasmus",
+    "international": "Uluslararası Öğrenciler",
+    "agreements": "Anlaşmalar",
+    "announcements": "Duyurular",
+    "faq": "SSS",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Uluslararası İlişkiler Ofisi",
+    "subtitle": "Bezmialem Vakıf Üniversitesi'nde uluslararası eğitim fırsatları ve akademik işbirlikleri",
+    "cta1": "Başvuru Süreci",
+    "cta2": "Gerekli Belgeler"
+  },
+  "videos": {
+    "title": "Tanıtım Videoları"
+  },
+  "quickAccess": {
+    "title": "Hızlı Erişim",
+    "learnMore": "Detaylı Bilgi",
+    "erasmus": {
+      "title": "Erasmus+",
+      "description": "Öğrenci ve personel değişim programları"
+    },
+    "international": {
+      "title": "Uluslararası Öğrenciler",
+      "description": "Başvuru ve kayıt işlemleri"
+    },
+    "agreements": {
+      "title": "İkili Anlaşmalar",
+      "description": "Partner üniversiteler ve işbirlikleri"
+    },
+    "application": {
+      "title": "Başvuru Süreci",
+      "description": "Adım adım başvuru rehberi"
+    },
+    "documents": {
+      "title": "Gerekli Belgeler",
+      "description": "Başvuru için gerekli evraklar"
+    },
+    "contact": {
+      "title": "İletişim",
+      "description": "Bize ulaşın"
+    }
+  },
+  "announcements": {
+    "title": "Duyurular",
+    "viewAll": "Tümünü Gör"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular"
+  },
+  "footer": {
+    "contact": "İletişim",
+    "quickLinks": "Hızlı Linkler",
+    "social": "Sosyal Medya",
+    "about": "Hakkımızda",
+    "international": "Uluslararası Öğrenciler",
+    "agreements": "Anlaşmalar",
+    "announcements": "Duyurular",
+    "rights": "Tüm hakları saklıdır."
+  }
+}
