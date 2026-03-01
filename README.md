@@ -1,27 +1,27 @@
-# Bezmialem Uluslararası İlişkiler Ofisi Web Sitesi
+# Bezmialem Uluslararası İlişkiler Ofisi
 
-Modern, hızlı ve kullanıcı odaklı bir web platformu geliştirdim.
+Modern, hızlı ve kullanıcı odaklı web sitesi geliştirdim.
 
-## 🎯 Proje Hedefi
+## 🎯 Hedef
 
-Karmaşık navigasyon ve yoğun menü yapısını ortadan kaldırarak, özellikle uluslararası öğrenciler ve Erasmus adaylarının ihtiyaç duyduğu bilgilere **maksimum 2-3 tıklama** ile ulaşabildiği modern bir deneyim sunmak.
+Karmaşık navigasyonu ortadan kaldırarak, uluslararası öğrenciler ve Erasmus adaylarının ihtiyaç duyduğu bilgilere **maksimum 2-3 tıklama** ile ulaşabildiği modern bir deneyim sunmak.
 
-## 💻 Kullandığım Teknolojiler
+## 💻 Teknolojiler
 
-- **Next.js 14** - React tabanlı modern framework (App Router, SSR)
-- **React 18** - Component-based UI geliştirme
-- **TypeScript** - Tip güvenliği ve daha az hata
-- **Tailwind CSS** - Hızlı ve tutarlı styling
-- **next-intl** - Çoklu dil desteği (TR/EN)
+- **Next.js 14** - React framework (App Router, SSR)
+- **React 18** - UI bileşenleri
+- **TypeScript** - Tip güvenliği
+- **Tailwind CSS** - Styling
+- **next-intl** - Çoklu dil (TR/EN)
 
 ## ✨ Özellikler
 
-- ⚡ Server-Side Rendering (SSR) ile hızlı yükleme
-- 🎨 Responsive tasarım (mobil öncelikli)
-- 🌍 SEO optimize edilmiş yapı
-- ♿ Erişilebilirlik standartları (ARIA, klavye navigasyonu)
-- 🚀 Performans optimizasyonları (lazy loading, image optimization)
-- 🌐 İki dilli destek (Türkçe/İngilizce)
+- ⚡ Server-Side Rendering
+- 🎨 Responsive tasarım
+- 🌍 SEO optimize
+- ♿ Erişilebilirlik
+- 🎥 Video galerisi
+- 🌐 İki dilli (TR/EN)
 
 ## 📦 Kurulum
 
@@ -30,52 +30,19 @@ npm install
 npm run dev
 ```
 
-Tarayıcıda: http://localhost:3000/tr
+Tarayıcı: http://localhost:3000/tr
 
-## 🏗️ Proje Yapısı
-
-```
-app/[locale]/              # Dil bazlı routing (tr/en)
-├── page.tsx               # Ana sayfa
-├── hakkimizda/            # Hakkımızda
-├── erasmus/               # Erasmus programı
-├── uluslararasi-ogrenciler/  # Uluslararası öğrenciler bölümü
-├── anlasmalar/            # İkili anlaşmalar
-├── duyurular/             # Duyurular ve detay sayfaları
-├── sss/                   # Sıkça sorulan sorular
-└── iletisim/              # İletişim formu
-
-components/                # Yeniden kullanılabilir React bileşenleri
-├── Header.tsx             # Responsive menü
-├── Footer.tsx             # Alt bilgi
-├── Hero.tsx               # Ana sayfa hero alanı
-├── QuickAccessCards.tsx   # Hızlı erişim kartları
-├── AnnouncementList.tsx   # Duyuru listesi
-├── FAQSection.tsx         # Accordion SSS
-└── ...
-
-data/                      # Veri dosyaları
-messages/                  # Çeviri dosyaları (tr.json, en.json)
-```
-
-## 📄 Sayfalar
+## 📄 İçerik
 
 13 sayfa geliştirdim:
-- Ana Sayfa (Hero, Hızlı Erişim, Duyurular, SSS)
+- Ana Sayfa (Hero, Hızlı Erişim, Videolar, Duyurular, SSS)
 - Hakkımızda
-- Erasmus Programı
+- Erasmus
 - Uluslararası Öğrenciler (5 alt sayfa)
-- İkili Anlaşmalar
-- Duyurular + Detay Sayfaları
+- Anlaşmalar
+- Duyurular
 - SSS
 - İletişim
-
-## 🎨 Tasarım
-
-- **Bezmialem Mavi**: `#003d82`
-- **Bezmialem Altın**: `#c5a572`
-- Sistem fontları (hızlı yükleme)
-- Mobile-first yaklaşım
 
 ## 🚀 Production
 
