@@ -26,17 +26,16 @@ export default function ContactPage() {
     >
       <div className="grid md:grid-cols-2 gap-8">
         <div>
-          <h2 className="text-2xl font-bold text-bezmialem-blue mb-4">İletişim Bilgileri</h2>
+          <h2 className="text-2xl font-bold text-brand-blue mb-4">İletişim Bilgileri</h2>
           <div className="space-y-4">
             <div className="flex items-start space-x-3">
               <span className="text-2xl">📍</span>
               <div>
                 <h3 className="font-bold">Adres</h3>
                 <p className="text-gray-700">
-                  Bezmialem Vakıf Üniversitesi<br />
-                  Uluslararası İlişkiler Ofisi<br />
-                  Adnan Menderes Bulvarı (Vatan Cad.)<br />
-                  34093 Fatih/İstanbul
+                  International Relations Office<br />
+                  University Campus<br />
+                  Istanbul, Turkey
                 </p>
               </div>
             </div>
@@ -53,7 +52,7 @@ export default function ContactPage() {
               <span className="text-2xl">📧</span>
               <div>
                 <h3 className="font-bold">E-posta</h3>
-                <p className="text-gray-700">international@bezmialem.edu.tr</p>
+                <p className="text-gray-700">international@university.edu</p>
               </div>
             </div>
 
@@ -78,7 +77,7 @@ export default function ContactPage() {
         </div>
 
         <div>
-          <h2 className="text-2xl font-bold text-bezmialem-blue mb-4">İletişim Formu</h2>
+          <h2 className="text-2xl font-bold text-brand-blue mb-4">İletişim Formu</h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label htmlFor="name" className="block font-semibold mb-2">
@@ -88,7 +87,7 @@ export default function ContactPage() {
                 type="text"
                 id="name"
                 required
-                className="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-bezmialem-blue focus:outline-none"
+                className="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-brand-blue focus:outline-none"
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               />
@@ -102,7 +101,7 @@ export default function ContactPage() {
                 type="email"
                 id="email"
                 required
-                className="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-bezmialem-blue focus:outline-none"
+                className="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-brand-blue focus:outline-none"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               />
@@ -116,7 +115,7 @@ export default function ContactPage() {
                 type="text"
                 id="subject"
                 required
-                className="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-bezmialem-blue focus:outline-none"
+                className="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-brand-blue focus:outline-none"
                 value={formData.subject}
                 onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
               />
@@ -130,7 +129,7 @@ export default function ContactPage() {
                 id="message"
                 required
                 rows={6}
-                className="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-bezmialem-blue focus:outline-none"
+                className="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-brand-blue focus:outline-none"
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               />
@@ -138,7 +137,7 @@ export default function ContactPage() {
 
             <button
               type="submit"
-              className="w-full bg-bezmialem-blue hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition focus-visible-ring"
+              className="w-full bg-brand-blue hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition focus-visible-ring"
             >
               Gönder
             </button>

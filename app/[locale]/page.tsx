@@ -1,7 +1,6 @@
 import { useTranslations } from 'next-intl';
 import Hero from '@/components/Hero';
 import QuickAccessCards from '@/components/QuickAccessCards';
-import VideoGallery from '@/components/VideoGallery';
 import AnnouncementList from '@/components/AnnouncementList';
 import FAQSection from '@/components/FAQSection';
 import { getTranslations } from 'next-intl/server';
@@ -28,7 +27,6 @@ export default function HomePage() {
     <>
       <Hero /> {/* Hero alanı */}
       <QuickAccessCards /> {/* Hızlı erişim kartları */}
-      <VideoGallery /> {/* Video galerisi */}
       <AnnouncementList /> {/* Duyurular */}
       <FAQSection /> {/* Sıkça sorulan sorular */}
     </>
