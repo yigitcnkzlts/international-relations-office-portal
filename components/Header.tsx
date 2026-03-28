@@ -30,8 +30,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           <Link href={`/${locale}`} className="flex items-center space-x-3 focus-visible-ring">
             <div className="text-xl font-bold">
-              Bezmialem<br />
-              <span className="text-brand-gold text-sm">Uluslararası İlişkiler</span>
+              IRO
+              <br />
+              <span className="text-brand-gold text-sm">International Relations</span>
             </div>
           </Link>
 

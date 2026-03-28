@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 
-// Video galerisi - Bezmialem tanıtım videolarını gösteriyorum
+// Video galerisi -  tanıtım videolarını gösteriyorum
 export default function VideoGallery() {
   const t = useTranslations('videos');
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
@@ -12,27 +12,27 @@ export default function VideoGallery() {
   const videos = [
     {
       id: 'v5gjH6sVASk',
-      title: 'Bezmialem Tanıtım Videosu 1',
+      title: ' Tanıtım Videosu 1',
       thumbnail: 'https://img.youtube.com/vi/v5gjH6sVASk/maxresdefault.jpg'
     },
     {
       id: 'mJjrD4EoIk0',
-      title: 'Bezmialem Tanıtım Videosu 2',
+      title: ' Tanıtım Videosu 2',
       thumbnail: 'https://img.youtube.com/vi/mJjrD4EoIk0/maxresdefault.jpg'
     },
     {
       id: 'SsYJkQJs-uY',
-      title: 'Bezmialem Tanıtım Videosu 3',
+      title: ' Tanıtım Videosu 3',
       thumbnail: 'https://img.youtube.com/vi/SsYJkQJs-uY/maxresdefault.jpg'
     },
     {
       id: 'xur-m6SI8N8',
-      title: 'Bezmialem Tanıtım Videosu 4',
+      title: ' Tanıtım Videosu 4',
       thumbnail: 'https://img.youtube.com/vi/xur-m6SI8N8/maxresdefault.jpg'
     },
     {
       id: '0x-zXBqYYlo',
-      title: 'Bezmialem Tanıtım Videosu 5',
+      title: ' Tanıtım Videosu 5',
       thumbnail: 'https://img.youtube.com/vi/0x-zXBqYYlo/maxresdefault.jpg'
     }
   ];

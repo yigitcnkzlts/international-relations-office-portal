@@ -14,7 +14,7 @@ export default function InternationalStudentsPage() {
     >
       <div className="space-y-6">
         <p className="text-lg">
-          Bezmialem Vakıf Üniversitesi, dünya çapında öğrencilere kaliteli sağlık bilimleri 
+          Üniversitemiz, dünya çapında öğrencilere kaliteli sağlık bilimleri 
           eğitimi sunmaktadır. Uluslararası öğrencilerimize başvurudan mezuniyete kadar 
           kapsamlı destek sağlıyoruz.
         </p>
