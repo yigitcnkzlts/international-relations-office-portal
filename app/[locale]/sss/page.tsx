@@ -20,11 +20,11 @@ export default function FAQPage() {
               className="w-full text-left px-6 py-4 flex justify-between items-center hover:bg-gray-50 transition focus-visible-ring"
               aria-expanded={openIndex === index}
             >
-              <span className="font-semibold text-bezmialem-blue pr-4 text-lg">
+              <span className="font-semibold text-brand-blue pr-4 text-lg">
                 {faq.question}
               </span>
               <svg
-                className={`w-6 h-6 text-bezmialem-blue transition-transform flex-shrink-0 ${
+                className={`w-6 h-6 text-brand-blue transition-transform flex-shrink-0 ${
                   openIndex === index ? 'rotate-180' : ''
                 }`}
                 fill="none"

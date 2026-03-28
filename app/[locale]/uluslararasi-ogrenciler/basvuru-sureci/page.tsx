@@ -55,7 +55,7 @@ export default function ApplicationProcessPage() {
     >
       <div className="space-y-8">
         <p className="text-lg text-gray-700">
-          Bezmialem Vakıf Üniversitesi'ne uluslararası öğrenci olarak başvuru sürecini 
+           Vakıf Üniversitesi'ne uluslararası öğrenci olarak başvuru sürecini 
           adım adım takip edin.
         </p>
 
@@ -63,23 +63,23 @@ export default function ApplicationProcessPage() {
           {steps.map((step, index) => (
             <div key={step.number} className="relative">
               {index !== steps.length - 1 && (
-                <div className="absolute left-8 top-20 bottom-0 w-0.5 bg-bezmialem-blue/20" />
+                <div className="absolute left-8 top-20 bottom-0 w-0.5 bg-brand-blue/20" />
               )}
               <div className="flex gap-6">
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-bezmialem-blue text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg">
+                  <div className="w-16 h-16 bg-brand-blue text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg">
                     {step.number}
                   </div>
                 </div>
-                <div className="flex-1 bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-bezmialem-blue transition">
-                  <h3 className="text-2xl font-bold text-bezmialem-blue mb-2">
+                <div className="flex-1 bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-brand-blue transition">
+                  <h3 className="text-2xl font-bold text-brand-blue mb-2">
                     {step.title}
                   </h3>
                   <p className="text-gray-700 mb-4">{step.description}</p>
                   <ul className="space-y-2">
                     {step.details.map((detail, idx) => (
                       <li key={idx} className="flex items-start">
-                        <span className="text-bezmialem-gold mr-2">✓</span>
+                        <span className="text-brand-gold mr-2">✓</span>
                         <span className="text-sm text-gray-600">{detail}</span>
                       </li>
                     ))}
@@ -90,7 +90,7 @@ export default function ApplicationProcessPage() {
           ))}
         </div>
 
-        <div className="bg-blue-50 border-l-4 border-bezmialem-blue p-6 rounded-r-lg mt-8">
+        <div className="bg-blue-50 border-l-4 border-brand-blue p-6 rounded-r-lg mt-8">
           <h3 className="font-bold text-lg mb-2">💡 Önemli Bilgi</h3>
           <p className="text-gray-700">
             Başvuru sürecinde herhangi bir sorunuz olursa, Uluslararası İlişkiler Ofisi 

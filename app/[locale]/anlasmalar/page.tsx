@@ -28,15 +28,15 @@ export default function AgreementsPage() {
 
         <div className="grid md:grid-cols-2 gap-6 mt-8">
           {partners.map((partner) => (
-            <div key={partner.country} className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-bezmialem-blue transition">
-              <h3 className="text-xl font-bold text-bezmialem-blue mb-4 flex items-center">
+            <div key={partner.country} className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-brand-blue transition">
+              <h3 className="text-xl font-bold text-brand-blue mb-4 flex items-center">
                 <span className="mr-2">🌍</span>
                 {partner.country}
               </h3>
               <ul className="space-y-2">
                 {partner.universities.map((uni) => (
                   <li key={uni} className="flex items-start">
-                    <span className="text-bezmialem-gold mr-2">•</span>
+                    <span className="text-brand-gold mr-2">•</span>
                     <span>{uni}</span>
                   </li>
                 ))}
@@ -45,7 +45,7 @@ export default function AgreementsPage() {
           ))}
         </div>
 
-        <div className="bg-bezmialem-blue text-white p-6 rounded-lg mt-8">
+        <div className="bg-brand-blue text-white p-6 rounded-lg mt-8">
           <h2 className="text-2xl font-bold mb-4">İşbirliği Alanları</h2>
           <div className="grid md:grid-cols-2 gap-4">
             <div>

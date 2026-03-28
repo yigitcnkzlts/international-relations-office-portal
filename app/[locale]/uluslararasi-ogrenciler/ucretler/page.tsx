@@ -51,7 +51,7 @@ export default function FeesPage() {
         <div className="space-y-6">
           {programs.map((item) => (
             <div key={item.faculty} className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden">
-              <div className="bg-bezmialem-blue text-white p-4">
+              <div className="bg-brand-blue text-white p-4">
                 <h2 className="text-xl font-bold">{item.faculty}</h2>
               </div>
               <div className="overflow-x-auto">
@@ -68,7 +68,7 @@ export default function FeesPage() {
                       <tr key={idx} className="hover:bg-gray-50">
                         <td className="px-6 py-4 text-gray-900">{program.name}</td>
                         <td className="px-6 py-4 text-gray-600">{program.duration}</td>
-                        <td className="px-6 py-4 text-bezmialem-blue font-bold">{program.fee}</td>
+                        <td className="px-6 py-4 text-brand-blue font-bold">{program.fee}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -80,36 +80,36 @@ export default function FeesPage() {
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-blue-50 p-6 rounded-lg">
-            <h3 className="font-bold text-lg mb-4 text-bezmialem-blue">💳 Ödeme Seçenekleri</h3>
+            <h3 className="font-bold text-lg mb-4 text-brand-blue">💳 Ödeme Seçenekleri</h3>
             <ul className="space-y-2 text-sm">
               <li className="flex items-start">
-                <span className="text-bezmialem-gold mr-2">•</span>
+                <span className="text-brand-gold mr-2">•</span>
                 <span>Tek seferde ödeme (%5 indirim)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-bezmialem-gold mr-2">•</span>
+                <span className="text-brand-gold mr-2">•</span>
                 <span>2 taksit (Eylül ve Şubat)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-bezmialem-gold mr-2">•</span>
+                <span className="text-brand-gold mr-2">•</span>
                 <span>Banka havalesi veya kredi kartı</span>
               </li>
             </ul>
           </div>
 
           <div className="bg-green-50 p-6 rounded-lg">
-            <h3 className="font-bold text-lg mb-4 text-bezmialem-blue">🎓 Burs İmkanları</h3>
+            <h3 className="font-bold text-lg mb-4 text-brand-blue">🎓 Burs İmkanları</h3>
             <ul className="space-y-2 text-sm">
               <li className="flex items-start">
-                <span className="text-bezmialem-gold mr-2">•</span>
+                <span className="text-brand-gold mr-2">•</span>
                 <span>Başarı bursu (akademik performansa göre)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-bezmialem-gold mr-2">•</span>
+                <span className="text-brand-gold mr-2">•</span>
                 <span>Kardeş indirimi (%10)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-bezmialem-gold mr-2">•</span>
+                <span className="text-brand-gold mr-2">•</span>
                 <span>Erken kayıt indirimi</span>
               </li>
             </ul>
@@ -126,7 +126,7 @@ export default function FeesPage() {
           </ul>
         </div>
 
-        <div className="bg-bezmialem-blue text-white p-6 rounded-lg">
+        <div className="bg-brand-blue text-white p-6 rounded-lg">
           <h3 className="text-xl font-bold mb-4">💡 Önemli Notlar</h3>
           <ul className="space-y-2 text-sm">
             <li>• Ücretler USD cinsinden belirlenmiştir</li>

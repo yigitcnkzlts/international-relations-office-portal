@@ -28,7 +28,7 @@ export default function AnnouncementDetailPage({ params }: { params: { id: strin
             day: 'numeric'
           })}
         </time>
-        <h1 className="text-4xl font-bold mt-2 mb-6 text-bezmialem-blue">
+        <h1 className="text-4xl font-bold mt-2 mb-6 text-brand-blue">
           {announcement.title[locale as 'tr' | 'en']}
         </h1>
         <div className="prose prose-lg max-w-none">

@@ -20,7 +20,7 @@ export default function ResidencePermitPage() {
           zorunludur. İşlemler kayıt tamamlandıktan sonra başlatılır.
         </p>
 
-        <div className="bg-blue-50 border-l-4 border-bezmialem-blue p-6 rounded-r-lg">
+        <div className="bg-blue-50 border-l-4 border-brand-blue p-6 rounded-r-lg">
           <h3 className="font-bold text-lg mb-2">⏰ Süreç ve Zaman Çizelgesi</h3>
           <p className="text-gray-700">
             İkamet izni başvurusu Türkiye'ye girişten sonra 30 gün içinde yapılmalıdır. 
@@ -30,7 +30,7 @@ export default function ResidencePermitPage() {
 
         <div className="space-y-6">
           <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
-            <h2 className="text-2xl font-bold text-bezmialem-blue mb-4">📋 Gerekli Belgeler</h2>
+            <h2 className="text-2xl font-bold text-brand-blue mb-4">📋 Gerekli Belgeler</h2>
             <ul className="space-y-3">
               {[
                 'Pasaport (en az 60 gün geçerlilik süresi)',
@@ -43,7 +43,7 @@ export default function ResidencePermitPage() {
                 'Harç ücreti makbuzu'
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start">
-                  <span className="text-bezmialem-gold mr-2 text-xl">✓</span>
+                  <span className="text-brand-gold mr-2 text-xl">✓</span>
                   <span className="text-gray-700">{item}</span>
                 </li>
               ))}
@@ -51,7 +51,7 @@ export default function ResidencePermitPage() {
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
-            <h2 className="text-2xl font-bold text-bezmialem-blue mb-4">🔄 Başvuru Süreci</h2>
+            <h2 className="text-2xl font-bold text-brand-blue mb-4">🔄 Başvuru Süreci</h2>
             <div className="space-y-4">
               {[
                 {
@@ -86,11 +86,11 @@ export default function ResidencePermitPage() {
                 }
               ].map((item) => (
                 <div key={item.step} className="flex gap-4 items-start">
-                  <div className="flex-shrink-0 w-10 h-10 bg-bezmialem-blue text-white rounded-full flex items-center justify-center font-bold">
+                  <div className="flex-shrink-0 w-10 h-10 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold">
                     {item.step}
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-bezmialem-blue">{item.title}</h3>
+                    <h3 className="font-bold text-lg text-brand-blue">{item.title}</h3>
                     <p className="text-gray-600 text-sm">{item.desc}</p>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export default function ResidencePermitPage() {
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-green-50 p-6 rounded-lg">
-              <h3 className="font-bold text-lg mb-4 text-bezmialem-blue">💰 Ücretler</h3>
+              <h3 className="font-bold text-lg mb-4 text-brand-blue">💰 Ücretler</h3>
               <ul className="space-y-2 text-sm">
                 <li>• İkamet izni başvuru ücreti: ~1.500 TL</li>
                 <li>• Kart ücreti: ~200 TL</li>
@@ -109,7 +109,7 @@ export default function ResidencePermitPage() {
             </div>
 
             <div className="bg-purple-50 p-6 rounded-lg">
-              <h3 className="font-bold text-lg mb-4 text-bezmialem-blue">📍 Başvuru Yeri</h3>
+              <h3 className="font-bold text-lg mb-4 text-brand-blue">📍 Başvuru Yeri</h3>
               <p className="text-sm text-gray-700">
                 <strong>Fatih İlçe Göç İdaresi Müdürlüğü</strong><br />
                 Adres bilgisi ve iletişim detayları<br />
@@ -119,7 +119,7 @@ export default function ResidencePermitPage() {
           </div>
         </div>
 
-        <div className="bg-bezmialem-blue text-white p-6 rounded-lg">
+        <div className="bg-brand-blue text-white p-6 rounded-lg">
           <h3 className="text-xl font-bold mb-4">🤝 Uluslararası İlişkiler Ofisi Desteği</h3>
           <p className="mb-4">
             Ofisimiz ikamet izni sürecinde size aşağıdaki konularda yardımcı olur:

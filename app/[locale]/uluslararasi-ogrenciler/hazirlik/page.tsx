@@ -20,7 +20,7 @@ export default function PreparatorySchoolPage() {
           için hazırlık programı sunulmaktadır.
         </p>
 
-        <div className="bg-blue-50 border-l-4 border-bezmialem-blue p-6 rounded-r-lg">
+        <div className="bg-blue-50 border-l-4 border-brand-blue p-6 rounded-r-lg">
           <h3 className="font-bold text-lg mb-2">📚 Program Özellikleri</h3>
           <ul className="space-y-2 text-gray-700">
             <li>• Yoğun İngilizce eğitimi</li>
@@ -32,12 +32,12 @@ export default function PreparatorySchoolPage() {
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
-            <h3 className="text-xl font-bold text-bezmialem-blue mb-4">⏰ Süre</h3>
+            <h3 className="text-xl font-bold text-brand-blue mb-4">⏰ Süre</h3>
             <p className="text-gray-700">1 akademik yıl (2 dönem)</p>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
-            <h3 className="text-xl font-bold text-bezmialem-blue mb-4">💰 Ücret</h3>
+            <h3 className="text-xl font-bold text-brand-blue mb-4">💰 Ücret</h3>
             <p className="text-gray-700">5.000 USD/yıl</p>
           </div>
         </div>

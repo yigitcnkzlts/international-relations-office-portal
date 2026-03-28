@@ -120,7 +120,7 @@ export default function RequiredDocumentsPage() {
         <div className="space-y-6">
           {documents.map((doc) => (
             <div key={doc.category} className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden">
-              <div className="bg-gradient-to-r from-bezmialem-blue to-blue-700 text-white p-4">
+              <div className="bg-gradient-to-r from-brand-blue to-blue-700 text-white p-4">
                 <h2 className="text-2xl font-bold flex items-center">
                   <span className="mr-3 text-3xl">{doc.icon}</span>
                   {doc.category}
@@ -132,7 +132,7 @@ export default function RequiredDocumentsPage() {
                     <div key={idx} className="flex items-start gap-4 pb-4 border-b last:border-b-0">
                       <div className="flex-1">
                         <div className="flex items-center gap-2 mb-1">
-                          <h3 className="font-bold text-lg text-bezmialem-blue">
+                          <h3 className="font-bold text-lg text-brand-blue">
                             {item.name}
                           </h3>
                           {item.required && (
@@ -156,7 +156,7 @@ export default function RequiredDocumentsPage() {
           ))}
         </div>
 
-        <div className="bg-bezmialem-blue text-white p-6 rounded-lg">
+        <div className="bg-brand-blue text-white p-6 rounded-lg">
           <h3 className="text-xl font-bold mb-4">📥 Belge Teslimi</h3>
           <p className="mb-4">
             Belgelerinizi aşağıdaki yöntemlerle teslim edebilirsiniz:
