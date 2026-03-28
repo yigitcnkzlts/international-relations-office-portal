@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --bezmialem-blue: #003d82;
-  --bezmialem-gold: #c5a572;
+  --primary-blue: #003d82;
+  --primary-gold: #c5a572;
 }
 
 * {
@@ -25,6 +25,6 @@ body {
 
 @layer utilities {
   .focus-visible-ring {
-    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bezmialem-blue focus-visible:ring-offset-2;
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue focus-visible:ring-offset-2;
   }
 }

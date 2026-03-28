@@ -1,188 +1,184 @@
-# 🌍 Bezmialem Uluslararası İlişkiler Ofisi - Demo Projesi
+# 🌍 International Relations Office Portal - Demo Project
 
-> **Not:** Bu proje tamamen demo amaçlı geliştirilmiştir. Resmî kurum projesi değildir. Amaç, modern web geliştirme becerilerini, kurumsal arayüz tasarımını ve çok dilli portal geliştirme yetkinliğini göstermektir.
+> **Note:** This project is developed entirely for demonstration purposes. It is not an official institutional project. The aim is to showcase modern web development skills, corporate interface design, and multilingual portal development capabilities.
 
-## 🎯 Proje Özeti
+## 🎯 Project Overview
 
-Bu proje, Bezmialem Vakıf Üniversitesi Uluslararası İlişkiler Ofisi için tasarlanmış, modern, çok dilli ve kullanıcı dostu bir web portalı konseptidir. Uluslararası öğrenciler, Erasmus programına katılmak isteyen adaylar ve akademik iş birlikleri hakkında bilgi almak isteyen kullanıcılar için kapsamlı bir dijital deneyim sunmayı amaçlayan örnek bir çalışmadır.
+This project is a modern, multilingual, and user-friendly web portal concept designed for a university International Relations Office. It is a sample work aimed at providing a comprehensive digital experience for international students, candidates wishing to participate in the Erasmus program, and users seeking information about academic collaborations.
 
-Proje, gerçek bir kurumun ihtiyaçlarını düşünecek şekilde planlanmış; içerik yapısı, navigasyon mantığı, dil desteği, bilgilendirme sayfaları ve duyuru sistemi gibi bölümlerle zenginleştirilmiştir.
+The project is planned to consider the needs of a real institution; it is enriched with sections such as content structure, navigation logic, language support, information pages, and announcement system.
 
-Bu çalışma sayesinde aşağıdaki yetkinlikler sergilenmektedir:
+Through this work, the following competencies are demonstrated:
 
-- Kurumsal web sitesi mimarisi kurabilme
-- Çok dilli yapı oluşturabilme
-- Responsive ve erişilebilir arayüz geliştirebilme
-- İçerik odaklı sayfa organizasyonu yapabilme
-- Modern React / Next.js ekosistemi ile ölçeklenebilir frontend geliştirebilme
+- Building corporate website architecture
+- Creating multilingual structure
+- Developing responsive and accessible interfaces
+- Content-oriented page organization
+- Developing scalable frontend with modern React / Next.js ecosystem
 
-## 🧩 Proje Amacı
+## 🧩 Project Purpose
 
-Bu projenin temel amacı, üniversite veya kurumsal bir yapıya uygun, profesyonel bir uluslararası ilişkiler portalı örneği oluşturmaktır. Portal içerisinde kullanıcıların ihtiyaç duyabileceği başlıca bilgilere düzenli ve anlaşılır şekilde erişebilmesi hedeflenmiştir:
+The main purpose of this project is to create a professional international relations portal example suitable for a university or corporate structure. It is aimed that users can access the main information they may need in an organized and understandable way within the portal:
 
-- Uluslararası öğrenci başvuru süreçleri
-- Erasmus+ değişim programı bilgileri
-- İkili anlaşmalar ve partner üniversiteler
-- Hazırlık programı, ikamet ve ücret süreçleri
-- Duyurular ve sıkça sorulan sorular
-- İletişim ve yönlendirme bölümleri
+- International student application processes
+- Erasmus+ exchange program information
+- Bilateral agreements and partner universities
+- Preparatory program, residence and fee processes
+- Announcements and frequently asked questions
+- Contact and referral sections
 
-Bu yaklaşım, sadece görsel bir arayüz değil, aynı zamanda içerik planlaması güçlü, kullanıcı deneyimi düşünülmüş bir sistem ortaya koymaktadır.
+This approach presents not only a visual interface, but also a system with strong content planning and user experience in mind.
 
-## 📝 Projede Yer Alan Bölümler
+## 📝 Sections in the Project
 
-### 🏠 Ana Sayfa
-Ana sayfa, kullanıcıyı ilk karşılayan ve portalın genel yapısını tanıtan merkez bölümdür. Bu sayfada:
+### 🏠 Home Page
+The home page is the central section that first greets the user and introduces the general structure of the portal. On this page:
 
-- Dikkat çekici bir hero section
-- Hızlı erişim kartları kullanıcıyı ilgili bölümlere yönlendiren yapı
-- Tanıtım amaçlı video galerisi
-- Kurumsal güven hissi veren düzenli tasarım yaklaşımı
+- An eye-catching hero section
+- Quick access cards directing users to relevant sections
+- Promotional video gallery
+- Organized design approach that gives a sense of corporate trust
 
-yer almaktadır.
-
-### ℹ️ Hakkımızda
-Uluslararası İlişkiler Ofisi'nin amacı, kapsamı ve genel tanıtımı için hazırlanmış bölümdür. Kullanıcının ofisi tanımasını sağlar.
+### ℹ️ About Us
+This section is prepared for the purpose, scope and general introduction of the International Relations Office.
 
 ### 🇪🇺 Erasmus+
-Erasmus programı hakkında bilgi almak isteyen öğrenciler için hazırlanmış içerik alanıdır. Değişim süreçleri, program detayları ve bilgilendirici yapı burada sunulmaktadır.
+This is the content area prepared for students who want to learn about the Erasmus program. Exchange processes, program details and informative structure are presented here.
 
-### 🎓 Uluslararası Öğrenciler
-Uluslararası öğrencilerin ihtiyaç duyabileceği temel başlıkları içeren kapsamlı bölümdür. Örneğin:
+### 🎓 International Students
+This is a comprehensive section containing the main topics that international students may need:
 
-- Başvuru adımları
-- Gerekli belgeler
-- Hazırlık süreci
-- Ücret bilgileri
-- İkamet süreçleri
+- Application steps
+- Required documents
+- Preparation process
+- Fee information
+- Residence processes
 
-gibi konular bu alanda ele alınmaktadır.
+### 🤝 Bilateral Agreements
+This section is designed to introduce partner universities and academic collaborations.
 
-### 🤝 İkili Anlaşmalar
-Partner üniversiteler ve akademik iş birliklerini tanıtmak için düşünülmüş bölümdür. Kurumsal yapıya profesyonel bir derinlik kazandırır.
+### 📢 Announcements
+It is structured with announcement list and detail page logic. In this way, the portal is transformed from a static page structure into a more living content structure.
 
-### 📢 Duyurular
-Duyuru listesi ve detay sayfası mantığı ile kurgulanmıştır. Bu sayede portal, statik sayfa yapısından çıkarılıp daha yaşayan bir içerik yapısına dönüştürülmüştür.
+### ❓ FAQ
+It is designed as a section that collects the topics that users are most curious about in one place.
 
-### ❓ SSS
-Kullanıcıların en çok merak ettiği konuları tek noktada toplayan bölüm olarak tasarlanmıştır. Kullanıcı deneyimini güçlendirir ve bilgiye erişimi hızlandırır.
+### 📬 Contact
+Contact information and form area are provided for users who want to contact the office.
 
-### � İletişim
-Ofis ile iletişime geçmek isteyen kullanıcılar için iletişim bilgileri ve form alanı sunulmaktadır.
-
-## 🚀 Kullanılan Teknolojiler
+## 🚀 Technologies Used
 
 ### Frontend
-- **Next.js 14.2** - React tabanlı full-stack framework
-- **React 18.3** - Modern UI kütüphanesi
-- **TypeScript 5.3** - Type-safe JavaScript geliştirme
+- **Next.js 14.2** - React-based full-stack framework
+- **React 18.3** - Modern UI library
+- **TypeScript 5.3** - Type-safe JavaScript development
 
-Bu teknoloji seçimi sayesinde proje hem modern geliştirme standartlarına uygun hale getirilmiş hem de ölçeklenebilir bir yapı kurulmuştur.
+This technology selection makes the project compliant with modern development standards and establishes a scalable structure.
 
 ### UI / Styling
 - **Tailwind CSS 3.4** - Utility-first CSS framework
-- **PostCSS** - CSS işleme ve optimizasyon
-- **Autoprefixer** - Tarayıcı uyumluluğu
+- **PostCSS** - CSS processing and optimization
+- **Autoprefixer** - Browser compatibility
 
-Arayüz tasarımında modern, sade, hızlı ve responsive bir geliştirme süreci hedeflenmiştir.
+A modern, simple, fast and responsive development process is targeted in interface design.
 
 ### Internationalization (i18n)
-- **next-intl 3.11** - Next.js için çoklu dil desteği
-- JSON tabanlı çeviri yapısı
-- URL tabanlı dil yönlendirmesi
+- **next-intl 3.11** - Multilingual support for Next.js
+- JSON-based translation structure
+- URL-based language routing
 
-Bu yapı sayesinde proje Türkçe ve İngilizce olarak kullanılabilir hale getirilmiştir.
+Thanks to this structure, the project can be used in Turkish and English.
 
 ### Development Tools
-- **ESLint** - Code quality ve linting
+- **ESLint** - Code quality and linting
 - **npm** - Package manager
 
-Kod kalitesini korumak ve geliştirme sürecini düzenli yürütmek için kullanılmıştır.
+Used to maintain code quality and conduct the development process in an organized manner.
 
-## ✨ Öne Çıkan Özellikler
+## ✨ Key Features
 
-### 🌐 Çoklu Dil Desteği
-Proje, Türkçe ve İngilizce olmak üzere iki dilde kullanılabilmektedir. Bu özellik, özellikle uluslararası hedef kitlesi olan kurumlar için büyük önem taşır.
+### 🌐 Multilingual Support
+The project can be used in two languages: Turkish and English. This feature is of great importance especially for institutions with an international target audience.
 
-- `/tr` ve `/en` tabanlı yönlendirme
-- Dinamik dil değiştirme mantığı
-- SEO açısından daha düzenli çoklu dil yapısı
-- İçeriklerin farklı dilde daha düzenli sunulabilmesi
+- `/tr` and `/en` based routing
+- Dynamic language switching logic
+- More organized multilingual structure for SEO
+- More organized presentation of content in different languages
 
-### 📱 Responsive Tasarım
-Portal, mobil, tablet ve masaüstü cihazlarda düzgün çalışacak şekilde tasarlanmıştır.
+### 📱 Responsive Design
+The portal is designed to work properly on mobile, tablet and desktop devices.
 
-- Farklı ekran boyutlarına uyum
-- Touch-friendly kullanım
-- Okunabilirlik ve erişim kolaylığı
-- Modern kullanıcı deneyimi
+- Adaptation to different screen sizes
+- Touch-friendly usage
+- Readability and ease of access
+- Modern user experience
 
-### ⚡ Performans Odaklı Yaklaşım
-Next.js altyapısının sunduğu avantajlarla birlikte performans optimizasyonu düşünülmüştür.
+### ⚡ Performance-Oriented Approach
+Performance optimization is considered along with the advantages offered by the Next.js infrastructure.
 
-- SSR / SSG desteği
-- Optimize edilmiş sayfa yükleme mantığı
-- Component bazlı yapı
-- Lazy loading ve code splitting yaklaşımı
-- Görsel optimizasyonu
+- SSR / SSG support
+- Optimized page loading logic
+- Component-based structure
+- Lazy loading and code splitting approach
+- Image optimization
 
-### 🎥 Multimedya Desteği
-YouTube video entegrasyonu ile daha dinamik ve tanıtım odaklı bir içerik sunumu hedeflenmiştir.
+### 🎥 Multimedia Support
+A more dynamic and promotional content presentation is aimed with YouTube video integration.
 
-### 📢 Dinamik İçerik Yaklaşımı
-Duyurular ve detay sayfaları sayesinde proje sadece statik bir tanıtım sitesi olmaktan çıkarılmış, daha gerçekçi bir portal hissi verilmiştir.
+### 📢 Dynamic Content Approach
+Thanks to announcements and detail pages, the project has been removed from being just a static promotional site and given a more realistic portal feel.
 
-### 🧭 Güçlü Navigasyon
-Kullanıcının içerikler arasında rahat hareket etmesini sağlayacak yapı düşünülmüştür.
+### 🧭 Strong Navigation
+A structure is designed to allow the user to move comfortably between contents.
 
-- Breadcrumb kullanımı
-- Hızlı erişim kartları
+- Breadcrumb usage
+- Quick access cards
 - Responsive header
-- Footer yönlendirmeleri
+- Footer redirects
 
-### ♿ Erişilebilirlik
-Kurumsal yapılarda önemli olan erişilebilirlik konusu da göz önünde bulundurulmuştur.
+### ♿ Accessibility
+The issue of accessibility, which is important in corporate structures, has also been taken into account.
 
 - Semantic HTML
-- Klavye ile kullanım desteği
-- ARIA etiketleri
-- Ekran okuyucu dostu yapı
+- Keyboard usage support
+- ARIA tags
+- Screen reader friendly structure
 
-## 🛠️ Geliştirici Bakış Açısıyla Bu Projede Neler Gösteriliyor?
+## 🛠️ What Does This Project Demonstrate from a Developer's Perspective?
 
-Bu proje yalnızca bir arayüz çalışması değildir. Aynı zamanda aşağıdaki teknik ve yapısal becerileri göstermektedir:
+This project is not just an interface work. It also demonstrates the following technical and structural skills:
 
-- Sayfa bazlı içerik planlama
-- Bileşen mantığıyla frontend geliştirme
-- Kurumsal tasarım anlayışı
-- Çok dilli yapı kurulumu
-- Kullanıcı deneyimi odaklı navigasyon geliştirme
-- Modern web standartlarına uygun proje organizasyonu
-- TypeScript ile daha kontrollü geliştirme süreci
-- Gerçek hayata yakın kurumsal portal senaryosu oluşturma
+- Page-based content planning
+- Frontend development with component logic
+- Corporate design understanding
+- Multilingual structure setup
+- User experience-oriented navigation development
+- Project organization in accordance with modern web standards
+- More controlled development process with TypeScript
+- Creating a corporate portal scenario close to real life
 
-## 📦 Kurulum
+## 📦 Installation
 
 ```bash
-# Bağımlılıkları yükle
+# Install dependencies
 npm install
 
-# Development server'ı başlat
+# Start development server
 npm run dev
 
-# Tarayıcıda aç
+# Open in browser
 http://localhost:3000/tr
 ```
 
-## 🛠️ Komutlar
+## 🛠️ Commands
 
 ```bash
 npm run dev      # Development server
 npm run build    # Production build
 npm run start    # Production server
-npm run lint     # Linting kontrolü
+npm run lint     # Linting check
 ```
 
-## 📄 Lisans
+## 📄 License
 
-© 2026 Demo Projesi - Portfolyo Çalışması
+© 2026 Demo Project - Portfolio Work

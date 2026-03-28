@@ -15,12 +15,12 @@ export default function AnnouncementList() {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-bezmialem-blue">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-blue">
             {t('title')}
           </h2>
           <Link
             href={`/${locale}/duyurular`}
-            className="text-bezmialem-blue hover:text-blue-700 font-semibold focus-visible-ring"
+            className="text-brand-blue hover:text-blue-700 font-semibold focus-visible-ring"
           >
             {t('viewAll')} →
           </Link>
@@ -39,7 +39,7 @@ export default function AnnouncementList() {
                   day: 'numeric'
                 })}
               </time>
-              <h3 className="text-lg font-bold mt-2 mb-3 text-bezmialem-blue">
+              <h3 className="text-lg font-bold mt-2 mb-3 text-brand-blue">
                 {announcement.title[locale as 'tr' | 'en']}
               </h3>
               <p className="text-gray-600 text-sm line-clamp-3">

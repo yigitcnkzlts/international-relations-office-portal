@@ -75,8 +75,8 @@ export const announcements = [
       en: 'English proficiency exam for students wishing to be exempt from preparatory program will be held on March 15 and April 20, 2026.'
     },
     content: {
-      tr: 'Sınav ücreti: 100 TL. Başvuru için: yabancidiller@bezmialem.edu.tr. Muafiyet için minimum puan: TOEFL IBT 80, IELTS 6.5 veya üniversite sınavından 70/100.',
-      en: 'Exam fee: 100 TL. Apply to: yabancidiller@bezmialem.edu.tr. Minimum score for exemption: TOEFL IBT 80, IELTS 6.5 or 70/100 from university exam.'
+      tr: 'Sınav ücreti: 100 TL. Başvuru için: languages@university.edu. Muafiyet için minimum puan: TOEFL IBT 80, IELTS 6.5 veya üniversite sınavından 70/100.',
+      en: 'Exam fee: 100 TL. Apply to: languages@university.edu. Minimum score for exemption: TOEFL IBT 80, IELTS 6.5 or 70/100 from university exam.'
     }
   },
   {
@@ -107,8 +107,8 @@ export const announcements = [
       en: 'Erasmus+ teaching and training mobility applications for academic and administrative staff will be accepted between March 1-31, 2026.'
     },
     content: {
-      tr: 'Hareketlilik süresi: 2-5 gün (eğitim alma), 5-7 gün (ders verme). Hibe miktarı: Günlük 140-180 EUR (ülkeye göre değişir). Başvuru formu: international@bezmialem.edu.tr',
-      en: 'Mobility duration: 2-5 days (training), 5-7 days (teaching). Grant amount: 140-180 EUR per day (varies by country). Application form: international@bezmialem.edu.tr'
+      tr: 'Hareketlilik süresi: 2-5 gün (eğitim alma), 5-7 gün (ders verme). Hibe miktarı: Günlük 140-180 EUR (ülkeye göre değişir). Başvuru formu: international@university.edu',
+      en: 'Mobility duration: 2-5 days (training), 5-7 days (teaching). Grant amount: 140-180 EUR per day (varies by country). Application form: international@university.edu'
     }
   },
   {
@@ -123,8 +123,8 @@ export const announcements = [
       en: '25-50% scholarship opportunity for high-achieving international students. Applications will be accepted until March 15, 2026.'
     },
     content: {
-      tr: 'Burs kriterleri: Lise/üniversite not ortalaması min. 3.5/4.0, dil yeterlilik belgesi, motivasyon mektubu. Burs yenileme koşulu: Dönem GPA min. 3.0. Detaylı bilgi: scholarships@bezmialem.edu.tr',
-      en: 'Scholarship criteria: High school/university GPA min. 3.5/4.0, language proficiency certificate, motivation letter. Renewal condition: Semester GPA min. 3.0. Details: scholarships@bezmialem.edu.tr'
+      tr: 'Burs kriterleri: Lise/üniversite not ortalaması min. 3.5/4.0, dil yeterlilik belgesi, motivasyon mektubu. Burs yenileme koşulu: Dönem GPA min. 3.0. Detaylı bilgi: scholarships@university.edu',
+      en: 'Scholarship criteria: High school/university GPA min. 3.5/4.0, language proficiency certificate, motivation letter. Renewal condition: Semester GPA min. 3.0. Details: scholarships@university.edu'
     }
   }
 ];

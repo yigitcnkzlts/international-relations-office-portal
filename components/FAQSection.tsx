@@ -14,7 +14,7 @@ export default function FAQSection() {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-bezmialem-blue">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-brand-blue">
           {t('title')}
         </h2>
         <div className="space-y-4">
@@ -25,11 +25,11 @@ export default function FAQSection() {
                 className="w-full text-left px-6 py-4 flex justify-between items-center hover:bg-gray-50 transition focus-visible-ring"
                 aria-expanded={openIndex === index}
               >
-                <span className="font-semibold text-bezmialem-blue pr-4">
+                <span className="font-semibold text-brand-blue pr-4">
                   {faq.question}
                 </span>
                 <svg
-                  className={`w-5 h-5 text-bezmialem-blue transition-transform flex-shrink-0 ${
+                  className={`w-5 h-5 text-brand-blue transition-transform flex-shrink-0 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   fill="none"

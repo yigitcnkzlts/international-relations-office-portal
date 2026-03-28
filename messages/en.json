@@ -1,8 +1,8 @@
 {
   "metadata": {
     "home": {
-      "title": "International Relations Office - Bezmialem Vakif University",
-      "description": "Bezmialem Vakif University International Relations Office - Erasmus, international student applications and bilateral agreements"
+      "title": "International Relations Office",
+      "description": "International Relations Office - Erasmus, international student applications and bilateral agreements"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
   },
   "hero": {
     "title": "International Relations Office",
-    "subtitle": "International education opportunities and academic collaborations at Bezmialem Vakif University",
+    "subtitle": "International education opportunities and academic collaborations",
     "cta1": "Application Process",
     "cta2": "Required Documents"
   },

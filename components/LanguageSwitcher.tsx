@@ -20,7 +20,7 @@ export default function LanguageSwitcher() {
       <button
         onClick={() => switchLocale('tr')}
         className={`px-2 py-1 text-sm rounded transition focus-visible-ring ${
-          locale === 'tr' ? 'bg-white text-bezmialem-blue font-semibold' : 'hover:bg-white/20'
+          locale === 'tr' ? 'bg-white text-brand-blue font-semibold' : 'hover:bg-white/20'
         }`}
         aria-label="Türkçe"
       >
@@ -29,7 +29,7 @@ export default function LanguageSwitcher() {
       <button
         onClick={() => switchLocale('en')}
         className={`px-2 py-1 text-sm rounded transition focus-visible-ring ${
-          locale === 'en' ? 'bg-white text-bezmialem-blue font-semibold' : 'hover:bg-white/20'
+          locale === 'en' ? 'bg-white text-brand-blue font-semibold' : 'hover:bg-white/20'
         }`}
         aria-label="English"
       >

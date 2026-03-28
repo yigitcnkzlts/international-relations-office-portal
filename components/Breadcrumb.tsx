@@ -21,7 +21,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       <div className="container mx-auto px-4">
         <ol className="flex items-center space-x-2 text-sm">
           <li>
-            <Link href={`/${locale}`} className="text-bezmialem-blue hover:underline focus-visible-ring">
+            <Link href={`/${locale}`} className="text-brand-blue hover:underline focus-visible-ring">
               {t('home')}
             </Link>
           </li>
@@ -29,7 +29,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
             <li key={index} className="flex items-center space-x-2">
               <span className="text-gray-400">/</span>
               {item.href ? (
-                <Link href={item.href} className="text-bezmialem-blue hover:underline focus-visible-ring">
+                <Link href={item.href} className="text-brand-blue hover:underline focus-visible-ring">
                   {item.label}
                 </Link>
               ) : (

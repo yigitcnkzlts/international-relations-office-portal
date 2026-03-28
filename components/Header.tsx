@@ -25,13 +25,13 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-bezmialem-blue text-white sticky top-0 z-50 shadow-md">
+    <header className="bg-brand-blue text-white sticky top-0 z-50 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link href={`/${locale}`} className="flex items-center space-x-3 focus-visible-ring">
             <div className="text-xl font-bold">
               Bezmialem<br />
-              <span className="text-bezmialem-gold text-sm">Uluslararası İlişkiler</span>
+              <span className="text-brand-gold text-sm">Uluslararası İlişkiler</span>
             </div>
           </Link>
 

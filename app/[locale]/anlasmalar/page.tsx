@@ -22,7 +22,7 @@ export default function AgreementsPage() {
     >
       <div className="space-y-6">
         <p className="text-lg">
-          Bezmialem Vakıf Üniversitesi, dünya çapında prestijli üniversitelerle ikili anlaşmalar 
+          Üniversitemiz, dünya çapında prestijli üniversitelerle ikili anlaşmalar 
           yapmış ve akademik işbirliklerini sürdürmektedir.
         </p>
 

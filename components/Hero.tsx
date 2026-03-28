@@ -9,7 +9,7 @@ export default function Hero() {
   const locale = useLocale(); // Aktif dil
 
   return (
-    <section className="relative bg-gradient-to-br from-bezmialem-blue to-blue-900 text-white py-20 md:py-32">
+    <section className="relative bg-gradient-to-br from-brand-blue to-blue-900 text-white py-20 md:py-32">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
@@ -21,13 +21,13 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href={`/${locale}/uluslararasi-ogrenciler/basvuru-sureci`}
-              className="inline-block bg-bezmialem-gold hover:bg-yellow-600 text-white font-semibold px-8 py-4 rounded-lg transition shadow-lg hover:shadow-xl focus-visible-ring text-center"
+              className="inline-block bg-brand-gold hover:bg-yellow-600 text-white font-semibold px-8 py-4 rounded-lg transition shadow-lg hover:shadow-xl focus-visible-ring text-center"
             >
               {t('cta1')}
             </Link>
             <Link
               href={`/${locale}/uluslararasi-ogrenciler/gerekli-belgeler`}
-              className="inline-block bg-white hover:bg-gray-100 text-bezmialem-blue font-semibold px-8 py-4 rounded-lg transition shadow-lg hover:shadow-xl focus-visible-ring text-center"
+              className="inline-block bg-white hover:bg-gray-100 text-brand-blue font-semibold px-8 py-4 rounded-lg transition shadow-lg hover:shadow-xl focus-visible-ring text-center"
             >
               {t('cta2')}
             </Link>

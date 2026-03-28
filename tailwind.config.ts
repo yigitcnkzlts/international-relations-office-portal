@@ -21,7 +21,7 @@ const config: Config = {
           800: '#075985',
           900: '#0c4a6e',
         },
-        bezmialem: {
+        brand: {
           blue: '#003d82',
           gold: '#c5a572',
         }

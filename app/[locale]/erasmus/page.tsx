@@ -16,9 +16,9 @@ export default function ErasmusPage() {
           <h2 className="text-3xl font-bold mb-4">Erasmus+ Nedir?</h2>
           <p className="text-lg leading-relaxed mb-4">
             Erasmus+, Avrupa Birliği'nin eğitim, öğretim, gençlik ve spor alanlarında sunduğu 
-            en büyük değişim programıdır. Bezmialem Vakıf Üniversitesi, 2014 yılından bu yana 
-            Erasmus+ programına aktif olarak katılmakta ve öğrencilerimize Avrupa'nın prestijli 
-            üniversitelerinde eğitim görme fırsatı sunmaktadır.
+            en büyük değişim programıdır. Üniversitemiz, Erasmus+ programına aktif olarak 
+            katılmakta ve öğrencilerimize Avrupa'nın prestijli üniversitelerinde eğitim görme 
+            fırsatı sunmaktadır.
           </p>
           <div className="grid md:grid-cols-3 gap-4 mt-6">
             <div className="bg-white/10 p-4 rounded-lg">

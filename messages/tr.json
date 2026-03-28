@@ -1,8 +1,8 @@
 {
   "metadata": {
     "home": {
-      "title": "Uluslararası İlişkiler Ofisi - Bezmialem Vakıf Üniversitesi",
-      "description": "Bezmialem Vakıf Üniversitesi Uluslararası İlişkiler Ofisi - Erasmus, uluslararası öğrenci başvuruları ve ikili anlaşmalar"
+      "title": "Uluslararası İlişkiler Ofisi",
+      "description": "Uluslararası İlişkiler Ofisi - Erasmus, uluslararası öğrenci başvuruları ve ikili anlaşmalar"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
   },
   "hero": {
     "title": "Uluslararası İlişkiler Ofisi",
-    "subtitle": "Bezmialem Vakıf Üniversitesi'nde uluslararası eğitim fırsatları ve akademik işbirlikleri",
+    "subtitle": "Uluslararası eğitim fırsatları ve akademik işbirlikleri",
     "cta1": "Başvuru Süreci",
     "cta2": "Gerekli Belgeler"
   },

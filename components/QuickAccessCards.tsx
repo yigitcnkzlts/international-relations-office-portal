@@ -51,7 +51,7 @@ export default function QuickAccessCards() {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-bezmialem-blue">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-brand-blue">
           {t('title')}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -67,7 +67,7 @@ export default function QuickAccessCards() {
               </div>
               <div className="p-6">
                 <p className="text-gray-600">{t(`${card.key}.description`)}</p>
-                <span className="inline-block mt-4 text-bezmialem-blue font-semibold group-hover:translate-x-2 transition-transform">
+                <span className="inline-block mt-4 text-brand-blue font-semibold group-hover:translate-x-2 transition-transform">
                   {t('learnMore')} →
                 </span>
               </div>
