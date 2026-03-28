@@ -1,88 +1,165 @@
 # 🌍 Bezmialem Uluslararası İlişkiler Ofisi - Demo Projesi
 
-> **Not:** Bu proje demo amaçlı geliştirilmiştir. Kurumsal kullanım için değil, web geliştirme yeteneklerini göstermek amacıyla oluşturulmuştur.
+> **Not:** Bu proje tamamen demo amaçlı geliştirilmiştir. Resmî kurum projesi değildir. Amaç, modern web geliştirme becerilerini, kurumsal arayüz tasarımını ve çok dilli portal geliştirme yetkinliğini göstermektir.
 
-## 🎯 Proje Hakkında
+## 🎯 Proje Özeti
 
-Bezmialem Vakıf Üniversitesi Uluslararası İlişkiler Ofisi için tasarlanmış modern ve çok dilli web portalı demo projesidir. Uluslararası öğrenci başvuruları, Erasmus programları ve akademik işbirlikleri için gerekli bilgileri sunan kapsamlı bir platform örneğidir.
+Bu proje, Bezmialem Vakıf Üniversitesi Uluslararası İlişkiler Ofisi için tasarlanmış, modern, çok dilli ve kullanıcı dostu bir web portalı konseptidir. Uluslararası öğrenciler, Erasmus programına katılmak isteyen adaylar ve akademik iş birlikleri hakkında bilgi almak isteyen kullanıcılar için kapsamlı bir dijital deneyim sunmayı amaçlayan örnek bir çalışmadır.
 
-## 📝 İçerik
+Proje, gerçek bir kurumun ihtiyaçlarını düşünecek şekilde planlanmış; içerik yapısı, navigasyon mantığı, dil desteği, bilgilendirme sayfaları ve duyuru sistemi gibi bölümlerle zenginleştirilmiştir.
 
-Proje aşağıdaki bölümleri içermektedir:
+Bu çalışma sayesinde aşağıdaki yetkinlikler sergilenmektedir:
 
-- **Ana Sayfa** - Hero section, hızlı erişim kartları ve video galerisi
-- **Hakkımızda** - Uluslararası İlişkiler Ofisi tanıtımı
-- **Erasmus+** - Erasmus programları ve değişim bilgileri
-- **Uluslararası Öğrenciler** - Başvuru süreci, gerekli belgeler, hazırlık programı, ikamet ve ücret bilgileri
-- **İkili Anlaşmalar** - Partner üniversiteler ve işbirlikleri
-- **Duyurular** - Duyuru listesi ve detay sayfaları
-- **SSS** - Sıkça sorulan sorular
-- **İletişim** - İletişim bilgileri ve form
+- Kurumsal web sitesi mimarisi kurabilme
+- Çok dilli yapı oluşturabilme
+- Responsive ve erişilebilir arayüz geliştirebilme
+- İçerik odaklı sayfa organizasyonu yapabilme
+- Modern React / Next.js ekosistemi ile ölçeklenebilir frontend geliştirebilme
+
+## 🧩 Proje Amacı
+
+Bu projenin temel amacı, üniversite veya kurumsal bir yapıya uygun, profesyonel bir uluslararası ilişkiler portalı örneği oluşturmaktır. Portal içerisinde kullanıcıların ihtiyaç duyabileceği başlıca bilgilere düzenli ve anlaşılır şekilde erişebilmesi hedeflenmiştir:
+
+- Uluslararası öğrenci başvuru süreçleri
+- Erasmus+ değişim programı bilgileri
+- İkili anlaşmalar ve partner üniversiteler
+- Hazırlık programı, ikamet ve ücret süreçleri
+- Duyurular ve sıkça sorulan sorular
+- İletişim ve yönlendirme bölümleri
+
+Bu yaklaşım, sadece görsel bir arayüz değil, aynı zamanda içerik planlaması güçlü, kullanıcı deneyimi düşünülmüş bir sistem ortaya koymaktadır.
+
+## 📝 Projede Yer Alan Bölümler
+
+### 🏠 Ana Sayfa
+Ana sayfa, kullanıcıyı ilk karşılayan ve portalın genel yapısını tanıtan merkez bölümdür. Bu sayfada:
+
+- Dikkat çekici bir hero section
+- Hızlı erişim kartları kullanıcıyı ilgili bölümlere yönlendiren yapı
+- Tanıtım amaçlı video galerisi
+- Kurumsal güven hissi veren düzenli tasarım yaklaşımı
+
+yer almaktadır.
+
+### ℹ️ Hakkımızda
+Uluslararası İlişkiler Ofisi'nin amacı, kapsamı ve genel tanıtımı için hazırlanmış bölümdür. Kullanıcının ofisi tanımasını sağlar.
+
+### 🇪🇺 Erasmus+
+Erasmus programı hakkında bilgi almak isteyen öğrenciler için hazırlanmış içerik alanıdır. Değişim süreçleri, program detayları ve bilgilendirici yapı burada sunulmaktadır.
+
+### 🎓 Uluslararası Öğrenciler
+Uluslararası öğrencilerin ihtiyaç duyabileceği temel başlıkları içeren kapsamlı bölümdür. Örneğin:
+
+- Başvuru adımları
+- Gerekli belgeler
+- Hazırlık süreci
+- Ücret bilgileri
+- İkamet süreçleri
+
+gibi konular bu alanda ele alınmaktadır.
+
+### 🤝 İkili Anlaşmalar
+Partner üniversiteler ve akademik iş birliklerini tanıtmak için düşünülmüş bölümdür. Kurumsal yapıya profesyonel bir derinlik kazandırır.
+
+### 📢 Duyurular
+Duyuru listesi ve detay sayfası mantığı ile kurgulanmıştır. Bu sayede portal, statik sayfa yapısından çıkarılıp daha yaşayan bir içerik yapısına dönüştürülmüştür.
+
+### ❓ SSS
+Kullanıcıların en çok merak ettiği konuları tek noktada toplayan bölüm olarak tasarlanmıştır. Kullanıcı deneyimini güçlendirir ve bilgiye erişimi hızlandırır.
+
+### � İletişim
+Ofis ile iletişime geçmek isteyen kullanıcılar için iletişim bilgileri ve form alanı sunulmaktadır.
 
 ## 🚀 Kullanılan Teknolojiler
 
-### Frontend Framework
-- **Next.js 14.2** - React tabanlı full-stack framework (App Router)
+### Frontend
+- **Next.js 14.2** - React tabanlı full-stack framework
 - **React 18.3** - Modern UI kütüphanesi
 - **TypeScript 5.3** - Type-safe JavaScript geliştirme
 
-### Styling & UI
+Bu teknoloji seçimi sayesinde proje hem modern geliştirme standartlarına uygun hale getirilmiş hem de ölçeklenebilir bir yapı kurulmuştur.
+
+### UI / Styling
 - **Tailwind CSS 3.4** - Utility-first CSS framework
 - **PostCSS** - CSS işleme ve optimizasyon
 - **Autoprefixer** - Tarayıcı uyumluluğu
 
+Arayüz tasarımında modern, sade, hızlı ve responsive bir geliştirme süreci hedeflenmiştir.
+
 ### Internationalization (i18n)
 - **next-intl 3.11** - Next.js için çoklu dil desteği
-- JSON tabanlı çeviri sistemi
+- JSON tabanlı çeviri yapısı
 - URL tabanlı dil yönlendirmesi
+
+Bu yapı sayesinde proje Türkçe ve İngilizce olarak kullanılabilir hale getirilmiştir.
 
 ### Development Tools
 - **ESLint** - Code quality ve linting
 - **npm** - Package manager
 
-## ✨ Özellikler
+Kod kalitesini korumak ve geliştirme sürecini düzenli yürütmek için kullanılmıştır.
+
+## ✨ Öne Çıkan Özellikler
 
 ### 🌐 Çoklu Dil Desteği
-- Türkçe ve İngilizce dil seçenekleri
-- URL tabanlı dil yönlendirmesi (`/tr`, `/en`)
-- Dinamik dil değiştirme butonu
-- SEO uyumlu çoklu dil yapısı
+Proje, Türkçe ve İngilizce olmak üzere iki dilde kullanılabilmektedir. Bu özellik, özellikle uluslararası hedef kitlesi olan kurumlar için büyük önem taşır.
+
+- `/tr` ve `/en` tabanlı yönlendirme
+- Dinamik dil değiştirme mantığı
+- SEO açısından daha düzenli çoklu dil yapısı
+- İçeriklerin farklı dilde daha düzenli sunulabilmesi
 
 ### 📱 Responsive Tasarım
-- Mobil, tablet ve masaüstü uyumlu
-- Modern ve kullanıcı dostu arayüz
-- Touch-friendly navigasyon
-- Optimize edilmiş görsel deneyim
+Portal, mobil, tablet ve masaüstü cihazlarda düzgün çalışacak şekilde tasarlanmıştır.
 
-### ⚡ Performans & Optimizasyon
-- Server-Side Rendering (SSR)
-- Static Site Generation (SSG) desteği
-- Optimize edilmiş sayfa yükleme
-- Code splitting ve lazy loading
-- Image optimization
+- Farklı ekran boyutlarına uyum
+- Touch-friendly kullanım
+- Okunabilirlik ve erişim kolaylığı
+- Modern kullanıcı deneyimi
 
-### 🎥 Multimedya
-- YouTube video entegrasyonu
-- Responsive video player
-- Video galerisi bileşeni
+### ⚡ Performans Odaklı Yaklaşım
+Next.js altyapısının sunduğu avantajlarla birlikte performans optimizasyonu düşünülmüştür.
 
-### 📢 İçerik Yönetimi
-- Dinamik duyuru sistemi
-- Duyuru detay sayfaları
-- Tarih ve kategori bilgileri
-- SSS (Sıkça Sorulan Sorular) bölümü
+- SSR / SSG desteği
+- Optimize edilmiş sayfa yükleme mantığı
+- Component bazlı yapı
+- Lazy loading ve code splitting yaklaşımı
+- Görsel optimizasyonu
 
-### 🧭 Navigasyon
-- Breadcrumb navigasyon
+### 🎥 Multimedya Desteği
+YouTube video entegrasyonu ile daha dinamik ve tanıtım odaklı bir içerik sunumu hedeflenmiştir.
+
+### 📢 Dinamik İçerik Yaklaşımı
+Duyurular ve detay sayfaları sayesinde proje sadece statik bir tanıtım sitesi olmaktan çıkarılmış, daha gerçekçi bir portal hissi verilmiştir.
+
+### 🧭 Güçlü Navigasyon
+Kullanıcının içerikler arasında rahat hareket etmesini sağlayacak yapı düşünülmüştür.
+
+- Breadcrumb kullanımı
 - Hızlı erişim kartları
-- Responsive header menü
-- Footer linkleri
+- Responsive header
+- Footer yönlendirmeleri
 
 ### ♿ Erişilebilirlik
-- Semantic HTML yapısı
-- Keyboard navigasyon desteği
+Kurumsal yapılarda önemli olan erişilebilirlik konusu da göz önünde bulundurulmuştur.
+
+- Semantic HTML
+- Klavye ile kullanım desteği
 - ARIA etiketleri
-- Ekran okuyucu uyumlu
+- Ekran okuyucu dostu yapı
+
+## 🛠️ Geliştirici Bakış Açısıyla Bu Projede Neler Gösteriliyor?
+
+Bu proje yalnızca bir arayüz çalışması değildir. Aynı zamanda aşağıdaki teknik ve yapısal becerileri göstermektedir:
+
+- Sayfa bazlı içerik planlama
+- Bileşen mantığıyla frontend geliştirme
+- Kurumsal tasarım anlayışı
+- Çok dilli yapı kurulumu
+- Kullanıcı deneyimi odaklı navigasyon geliştirme
+- Modern web standartlarına uygun proje organizasyonu
+- TypeScript ile daha kontrollü geliştirme süreci
+- Gerçek hayata yakın kurumsal portal senaryosu oluşturma
 
 ## 📦 Kurulum
 
@@ -106,6 +183,6 @@ npm run start    # Production server
 npm run lint     # Linting kontrolü
 ```
 
-## � Lisans
+## 📄 Lisans
 
-© 2026 Demo Projesi
+© 2026 Demo Projesi - Portfolyo Çalışması
